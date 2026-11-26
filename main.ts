@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Stapler, c. 2019. Steel, rust, and resentment. Used in the Ritual of Binding, in which a clerk bound two sheets and at once regretted the commitment. Donated by Accounts.";
+  "Stapler, c. 2019. Steel, rust, and old resentment. Used in the Ritual of Binding, in which a clerk bound two sheets and instantly regretted the commitment. Donated by Accounts.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
